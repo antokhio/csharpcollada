@@ -1,0 +1,1 @@
+This is simply a set of classes used to deserialize Collada files(core, fx, phys, b-rep, and kinematics). Should be more useful than classes created by the xsd.exe tool.
