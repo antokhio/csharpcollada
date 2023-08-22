@@ -9,7 +9,7 @@ namespace grendgine_collada
 	[System.Diagnostics.DebuggerStepThroughAttribute()]
 	[System.ComponentModel.DesignerCategoryAttribute("code")]
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
-	[System.Xml.Serialization.XmlRootAttribute(ElementName="COLLADA", Namespace="http://www.collada.org/2005/11/COLLADASchema", IsNullable=false)]
+	[System.Xml.Serialization.XmlRootAttribute(ElementName="COLLADA", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=false)]
 	public partial class Grendgine_Collada
 	{
 		
