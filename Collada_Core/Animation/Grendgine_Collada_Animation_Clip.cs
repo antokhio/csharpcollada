@@ -8,7 +8,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Animation_Clip
 	{
-
 		[XmlAttribute("id")]
 		public string ID;
 		
@@ -23,18 +22,17 @@ namespace grendgine_collada
 		public double End;	
 		
 		
-	    [XmlElement(ElementName = "instance_animation")]
+		[XmlElement(ElementName = "instance_animation")]
 		public Grendgine_Collada_Instance_Animation[] Instance_Animation;	
 		
-	    [XmlElement(ElementName = "instance_formula")]
+		[XmlElement(ElementName = "instance_formula")]
 		public Grendgine_Collada_Instance_Formula[] Instance_Formula;	
 		
 
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
 		
-	    [XmlElement(ElementName = "extra")]
+		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra;	
 	}
 }
-
