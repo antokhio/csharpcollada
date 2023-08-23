@@ -14,4 +14,3 @@ namespace grendgine_collada
 		CYCLE_RELATIVE
 	}
 }
-

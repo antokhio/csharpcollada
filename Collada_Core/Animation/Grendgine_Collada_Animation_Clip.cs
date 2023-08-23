@@ -11,30 +11,26 @@ namespace grendgine_collada
 
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;	
-		
-		
+		public string Name;
+
 		[XmlAttribute("start")]
-		public double Start;	
+		public double Start;
 
 		[XmlAttribute("end")]
-		public double End;	
-		
-		
-	    [XmlElement(ElementName = "instance_animation")]
-		public Grendgine_Collada_Instance_Animation[] Instance_Animation;	
-		
-	    [XmlElement(ElementName = "instance_formula")]
-		public Grendgine_Collada_Instance_Formula[] Instance_Formula;	
-		
+		public double End;
+
+		[XmlElement(ElementName = "instance_animation")]
+		public Grendgine_Collada_Instance_Animation[] Instance_Animation;
+
+		[XmlElement(ElementName = "instance_formula")]
+		public Grendgine_Collada_Instance_Formula[] Instance_Formula;
 
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;	
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

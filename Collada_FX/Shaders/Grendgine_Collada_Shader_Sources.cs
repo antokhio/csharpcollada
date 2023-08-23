@@ -10,15 +10,12 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Shader_Sources
 	{
 		[XmlAttribute("entry")]
-		public string Entry;	
+		public string Entry;
 
-	    [XmlElement(ElementName = "inline")]
-		public string[] Inline;	
+		[XmlElement(ElementName = "inline")]
+		public string[] Inline;
 
-	    [XmlElement(ElementName = "import")]
-		public Grendgine_Collada_Ref_String[] Import;	
-		
-		
+		[XmlElement(ElementName = "import")]
+		public Grendgine_Collada_Ref_String[] Import;
 	}
 }
-

@@ -10,21 +10,19 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;			
-		
+		public string Name;
+
 		[XmlAttribute("count")]
-		public int Count;		
-		
+		public int Count;
+
 		[XmlAttribute("digits")]
-	    [System.ComponentModel.DefaultValueAttribute(typeof(int), "6")]
-		public int Digits;		
+		[System.ComponentModel.DefaultValueAttribute(typeof(int), "6")]
+		public int Digits;
 
 		[XmlAttribute("magnitude")]
-	    [System.ComponentModel.DefaultValueAttribute(typeof(int), "38")]
-		public int Magnitude;		
-		
+		[System.ComponentModel.DefaultValueAttribute(typeof(int), "38")]
+		public int Magnitude;
 	}
 }
-

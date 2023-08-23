@@ -12,13 +12,12 @@ namespace grendgine_collada
 		[XmlAttribute("length")]
 		public int Length;
 		[XmlAttribute("resizable")]
-		public bool Resizable;	
-		
+		public bool Resizable;
+
 		/// <summary>
 		/// Need to determine the type and value of the Object(s)
 		/// </summary>
 		[XmlAnyElement]
-		public XmlElement[] Data;			
+		public XmlElement[] Data;
 	}
 }
-

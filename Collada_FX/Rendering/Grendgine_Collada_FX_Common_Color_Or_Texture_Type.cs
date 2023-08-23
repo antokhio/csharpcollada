@@ -10,17 +10,16 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_FX_Common_Color_Or_Texture_Type
 	{
 		[XmlAttribute("opaque")]
-		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_FX_Opaque_Channel.A_ONE)]		
+		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_FX_Opaque_Channel.A_ONE)]
 		public Grendgine_Collada_FX_Opaque_Channel Opaque;
 
 		[XmlElement(ElementName = "param")]
-		public Grendgine_Collada_Param Param;			
-		
+		public Grendgine_Collada_Param Param;
+
 		[XmlElement(ElementName = "color")]
-		public Grendgine_Collada_Color Color;			
-		
+		public Grendgine_Collada_Color Color;
+
 		[XmlElement(ElementName = "texture")]
-		public Grendgine_Collada_Texture Texture;			
+		public Grendgine_Collada_Texture Texture;
 	}
 }
-

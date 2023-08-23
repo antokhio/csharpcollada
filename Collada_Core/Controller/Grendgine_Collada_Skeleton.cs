@@ -8,8 +8,7 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Skeleton
 	{
-	    [XmlTextAttribute()]
-	    public string Value;
+		[XmlTextAttribute()]
+		public string Value;
 	}
 }
-

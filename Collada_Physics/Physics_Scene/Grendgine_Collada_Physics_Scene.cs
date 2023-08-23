@@ -11,28 +11,26 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;	
-		
-		
-	    [XmlElement(ElementName = "instance_force_field")]
-		public Grendgine_Collada_Instance_Force_Field[] Instance_Force_Field;		
-		
-	    [XmlElement(ElementName = "instance_physics_model")]
-		public Grendgine_Collada_Instance_Physics_Model[] Instance_Physics_Model;		
-		
+		public string Name;
+
+		[XmlElement(ElementName = "instance_force_field")]
+		public Grendgine_Collada_Instance_Force_Field[] Instance_Force_Field;
+
+		[XmlElement(ElementName = "instance_physics_model")]
+		public Grendgine_Collada_Instance_Physics_Model[] Instance_Physics_Model;
+
 		[XmlElement(ElementName = "technique_common")]
 		public Grendgine_Collada_Technique_Common_Physics_Scene Technique_Common;
-	    
+
 		[XmlElement(ElementName = "technique")]
-		public Grendgine_Collada_Technique[] Technique;			
-		
+		public Grendgine_Collada_Technique[] Technique;
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
+
+		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

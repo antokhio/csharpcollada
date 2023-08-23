@@ -10,16 +10,14 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
-		[XmlAttribute("name")]
-		public string Name;	
-		
-		
-		[XmlElement(ElementName = "input")]
-		public Grendgine_Collada_Input_Unshared[] Input;			
 
-	    [XmlElement(ElementName = "extra")]
+		[XmlAttribute("name")]
+		public string Name;
+
+		[XmlElement(ElementName = "input")]
+		public Grendgine_Collada_Input_Unshared[] Input;
+
+		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

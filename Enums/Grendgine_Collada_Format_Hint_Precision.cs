@@ -9,7 +9,6 @@ namespace grendgine_collada
 		LOW,
 		MID,
 		HIGH,
-		MAX		
+		MAX
 	}
 }
-

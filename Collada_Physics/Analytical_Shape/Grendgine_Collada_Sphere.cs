@@ -11,10 +11,9 @@ namespace grendgine_collada
 	{
 
 		[XmlElement(ElementName = "radius")]
-		public float Radius;		
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;		
+		public float Radius;
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

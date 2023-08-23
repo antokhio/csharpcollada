@@ -10,21 +10,20 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;		
+		public string Name;
 
 		[XmlElement(ElementName = "optics")]
 		public Grendgine_Collada_Optics Optics;
-		
+
 		[XmlElement(ElementName = "imager")]
 		public Grendgine_Collada_Imager Imager;
-		
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;			
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

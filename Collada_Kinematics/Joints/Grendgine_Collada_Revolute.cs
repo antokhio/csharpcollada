@@ -10,13 +10,12 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Revolute
 	{
 		[XmlAttribute("sid")]
-		public string sID;	
-		
-	    [XmlElement(ElementName = "axis")]
-		public Grendgine_Collada_SID_Float_Array_String Axis;	
+		public string sID;
+
+		[XmlElement(ElementName = "axis")]
+		public Grendgine_Collada_SID_Float_Array_String Axis;
 
 		[XmlElement(ElementName = "limits")]
-		public Grendgine_Collada_Kinematics_Limits Limits;		
+		public Grendgine_Collada_Kinematics_Limits Limits;
 	}
 }
-

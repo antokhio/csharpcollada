@@ -11,15 +11,14 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("sid")]
 		public string sID;
-		
+
 		[XmlAttribute("id")]
 		public string id;
-		
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;	
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

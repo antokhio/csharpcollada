@@ -11,12 +11,11 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("platform")]
 		public string Platform;
-				
-	    [XmlElement(ElementName = "newparam")]
+
+		[XmlElement(ElementName = "newparam")]
 		public Grendgine_Collada_New_Param[] New_Param;
 
 		[XmlElement(ElementName = "technique")]
-		public Grendgine_Collada_Technique_GLES[] Technique;			
+		public Grendgine_Collada_Technique_GLES[] Technique;
 	}
 }
-

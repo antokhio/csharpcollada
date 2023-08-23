@@ -12,18 +12,17 @@ namespace grendgine_collada
 
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;		
-		
-	    [XmlElement(ElementName = "force_field")]
-		public Grendgine_Collada_Force_Field[] Force_Field;			
-		
+		public string Name;
+
+		[XmlElement(ElementName = "force_field")]
+		public Grendgine_Collada_Force_Field[] Force_Field;
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;			
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

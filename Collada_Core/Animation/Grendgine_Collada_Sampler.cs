@@ -10,7 +10,7 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-	
+
 		[XmlAttribute("pre_behavior")]
 		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Sampler_Behavior.UNDEFINED)]
 		public Grendgine_Collada_Sampler_Behavior Pre_Behavior;
@@ -18,10 +18,8 @@ namespace grendgine_collada
 		[XmlAttribute("post_behavior")]
 		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Sampler_Behavior.UNDEFINED)]
 		public Grendgine_Collada_Sampler_Behavior Post_Behavior;
-		
-		
+
 		[XmlElement(ElementName = "input")]
-		public Grendgine_Collada_Input_Unshared[] Input;			
+		public Grendgine_Collada_Input_Unshared[] Input;
 	}
 }
-

@@ -10,10 +10,9 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Box
 	{
 		[XmlElement(ElementName = "half_extents")]
-		public Grendgine_Collada_Float_Array_String Half_Extents;		
+		public Grendgine_Collada_Float_Array_String Half_Extents;
 
-	    [XmlElement(ElementName = "extra")]
+		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

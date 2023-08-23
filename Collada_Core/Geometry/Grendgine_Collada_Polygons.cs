@@ -10,8 +10,6 @@ namespace grendgine_collada
 	{
 
 		[XmlElement(ElementName = "ph")]
-		public Grendgine_Collada_Poly_PH[] PH;		
-	
+		public Grendgine_Collada_Poly_PH[] PH;
 	}
 }
-

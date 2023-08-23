@@ -10,7 +10,6 @@ namespace grendgine_collada
 		ADD,
 		ADD_SIGNED,
 		INTERPOLATE,
-		SUBTRACT		
+		SUBTRACT
 	}
 }
-

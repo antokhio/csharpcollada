@@ -11,21 +11,20 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("platform")]
 		public string Platform;
-		
+
 		[XmlAttribute("language")]
-		public string Language;	
-				
-	    [XmlElement(ElementName = "newparam")]
+		public string Language;
+
+		[XmlElement(ElementName = "newparam")]
 		public Grendgine_Collada_New_Param[] New_Param;
 
 		[XmlElement(ElementName = "technique")]
-		public Grendgine_Collada_Technique_GLES2[] Technique;	
-				
-	    [XmlElement(ElementName = "code")]
+		public Grendgine_Collada_Technique_GLES2[] Technique;
+
+		[XmlElement(ElementName = "code")]
 		public Grendgine_Collada_Code[] Code;
-				
-	    [XmlElement(ElementName = "include")]
+
+		[XmlElement(ElementName = "include")]
 		public Grendgine_Collada_Include[] Include;
 	}
 }
-

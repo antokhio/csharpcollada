@@ -10,10 +10,9 @@ namespace grendgine_collada
 		CLAMP,
 		BORDER,
 		MIRROR_ONCE,
-		
+
 		REPEAT,
 		CLAMP_TO_EDGE,
 		MIRRORED_REPEAT
 	}
 }
-

@@ -11,4 +11,3 @@ namespace grendgine_collada
 		FRAGMENT
 	}
 }
-

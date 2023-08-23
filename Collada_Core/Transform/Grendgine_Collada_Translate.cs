@@ -10,4 +10,3 @@ namespace grendgine_collada
 	{
 	}
 }
-

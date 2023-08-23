@@ -10,7 +10,6 @@ namespace grendgine_collada
 		RGBE,
 		L,
 		LA,
-		D		
+		D
 	}
 }
-

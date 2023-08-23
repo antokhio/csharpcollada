@@ -10,10 +10,9 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Plane
 	{
 		[XmlElement(ElementName = "equation")]
-		public Grendgine_Collada_Float_Array_String Equation;		
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;		
+		public Grendgine_Collada_Float_Array_String Equation;
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

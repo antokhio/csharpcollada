@@ -16,16 +16,15 @@ namespace grendgine_collada
 		public string Name;
 
 		[XmlAttribute("sid")]
-		public string sID;	
-		
-	    [XmlElement(ElementName = "prismatic")]
-		public Grendgine_Collada_Prismatic[] Prismatic;		
-	    
+		public string sID;
+
+		[XmlElement(ElementName = "prismatic")]
+		public Grendgine_Collada_Prismatic[] Prismatic;
+
 		[XmlElement(ElementName = "revolute")]
-		public Grendgine_Collada_Revolute[] Revolute;		
-	    
+		public Grendgine_Collada_Revolute[] Revolute;
+
 		[XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;		
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

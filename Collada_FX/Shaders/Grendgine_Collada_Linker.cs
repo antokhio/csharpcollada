@@ -11,15 +11,14 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("platform")]
 		public string Platform;
-		
+
 		[XmlAttribute("target")]
-		public string Target;			
-		
+		public string Target;
+
 		[XmlAttribute("options")]
-		public string Options;	
-		
-	    [XmlElement(ElementName = "binary")]
-		public Grendgine_Collada_Binary[] Binary;	
+		public string Options;
+
+		[XmlElement(ElementName = "binary")]
+		public Grendgine_Collada_Binary[] Binary;
 	}
 }
-

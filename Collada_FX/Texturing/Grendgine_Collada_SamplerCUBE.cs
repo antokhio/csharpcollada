@@ -9,7 +9,5 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="samplerCUBE", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_SamplerCUBE : Grendgine_Collada_FX_Sampler_Common
 	{
-
 	}
 }
-

@@ -10,13 +10,12 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Profile
 	{
 		[XmlAttribute("id")]
-		public string ID;		
-		
+		public string ID;
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;	
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

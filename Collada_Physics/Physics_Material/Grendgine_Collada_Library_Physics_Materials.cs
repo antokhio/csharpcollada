@@ -11,19 +11,17 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;		
-		
-	    [XmlElement(ElementName = "physics_material")]
-		public Grendgine_Collada_Physics_Material[] Physics_Material;			
-		
+		public string Name;
+
+		[XmlElement(ElementName = "physics_material")]
+		public Grendgine_Collada_Physics_Material[] Physics_Material;
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;	
-		
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

@@ -16,19 +16,18 @@ namespace grendgine_collada
 		public string Name;
 
 		[XmlAttribute("body")]
-		public string Body;		
+		public string Body;
 
 		[XmlAttribute("target")]
-		public string Target;		
-		
+		public string Target;
+
 		[XmlElement(ElementName = "technique_common")]
 		public Grendgine_Collada_Technique_Common_Instance_Rigid_Body Technique_Common;
-	    
+
 		[XmlElement(ElementName = "technique")]
-		public Grendgine_Collada_Technique[] Technique;		
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;	
+		public Grendgine_Collada_Technique[] Technique;
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

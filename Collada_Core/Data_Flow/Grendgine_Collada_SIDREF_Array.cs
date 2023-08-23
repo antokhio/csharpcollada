@@ -10,12 +10,11 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;			
-		
+		public string Name;
+
 		[XmlAttribute("count")]
-		public int Count;			
+		public int Count;
 	}
 }
-

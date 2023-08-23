@@ -10,8 +10,6 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Array_Length
 	{
 		[XmlAttribute("length")]
-		public int Length;	
-				
+		public int Length;
 	}
 }
-

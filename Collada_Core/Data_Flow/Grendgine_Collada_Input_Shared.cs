@@ -10,10 +10,8 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("offset")]
 		public int Offset;
-		
+
 		[XmlAttribute("set")]
-		public int Set;				
-		
+		public int Set;
 	}
 }
-

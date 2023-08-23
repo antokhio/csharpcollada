@@ -12,16 +12,15 @@ namespace grendgine_collada
 		public uint Count;
 
 		[XmlAttribute("offset")]
-		public uint Offset;		
-		
+		public uint Offset;
+
 		[XmlAttribute("source")]
-		public string Source;		
-		
+		public string Source;
+
 		[XmlAttribute("stride")]
-		public uint Stride;		
-		
-	    [XmlElement(ElementName = "param")]
-		public Grendgine_Collada_Param[] Param;				
+		public uint Stride;
+
+		[XmlElement(ElementName = "param")]
+		public Grendgine_Collada_Param[] Param;
 	}
 }
-

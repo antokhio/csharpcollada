@@ -11,18 +11,17 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("sid")]
 		public string sID;
-		
+
 		[XmlElement(ElementName = "annotate")]
-		public Grendgine_Collada_Annotate[] Annotate;		
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;		
-		
-	    [XmlElement(ElementName = "states")]
-		public Grendgine_Collada_States States;		
-		
-	    [XmlElement(ElementName = "evaluate")]
-		public Grendgine_Collada_Effect_Technique_Evaluate Evaluate;		
+		public Grendgine_Collada_Annotate[] Annotate;
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
+
+		[XmlElement(ElementName = "states")]
+		public Grendgine_Collada_States States;
+
+		[XmlElement(ElementName = "evaluate")]
+		public Grendgine_Collada_Effect_Technique_Evaluate Evaluate;
 	}
 }
-

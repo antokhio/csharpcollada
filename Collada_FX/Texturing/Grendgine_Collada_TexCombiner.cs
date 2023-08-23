@@ -9,15 +9,13 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="texcombiner", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_TexCombiner
 	{
-		
 		[XmlElement(ElementName = "constant")]
-		public Grendgine_Collada_Constant_Attribute Constant;		
-		
+		public Grendgine_Collada_Constant_Attribute Constant;
+
 		[XmlElement(ElementName = "RGB")]
-		public Grendgine_Collada_RGB RGB;		
-		
+		public Grendgine_Collada_RGB RGB;
+
 		[XmlElement(ElementName = "alpha")]
 		public Grendgine_Collada_Alpha Alpha;
 	}
 }
-

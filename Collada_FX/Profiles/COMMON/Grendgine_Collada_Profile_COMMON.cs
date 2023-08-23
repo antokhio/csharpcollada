@@ -14,7 +14,6 @@ namespace grendgine_collada
 		public Grendgine_Collada_New_Param[] New_Param;
 
 		[XmlElement(ElementName = "technique")]
-		public Grendgine_Collada_Effect_Technique_COMMON Technique;			
+		public Grendgine_Collada_Effect_Technique_COMMON Technique;
 	}
 }
-

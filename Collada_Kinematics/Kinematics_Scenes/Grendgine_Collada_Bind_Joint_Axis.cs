@@ -12,14 +12,10 @@ namespace grendgine_collada
 		[XmlAttribute("target")]
 		public string Target;
 
-
 		[XmlElement(ElementName = "axis")]
-		public Grendgine_Collada_Common_SIDREF_Or_Param_Type Axis;	
-		
-		[XmlElement(ElementName = "value")]
-		public Grendgine_Collada_Common_Float_Or_Param_Type Value;	
-		
+		public Grendgine_Collada_Common_SIDREF_Or_Param_Type Axis;
 
+		[XmlElement(ElementName = "value")]
+		public Grendgine_Collada_Common_Float_Or_Param_Type Value;
 	}
 }
-

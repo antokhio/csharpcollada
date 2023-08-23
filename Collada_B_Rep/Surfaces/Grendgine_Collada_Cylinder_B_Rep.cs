@@ -9,11 +9,10 @@ namespace grendgine_collada
 
 	public partial class Grendgine_Collada_Cylinder_B_Rep
 	{
-	    [XmlElement(ElementName = "radius")]
+		[XmlElement(ElementName = "radius")]
 		public Grendgine_Collada_Float_Array_String Radius;
 
 		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

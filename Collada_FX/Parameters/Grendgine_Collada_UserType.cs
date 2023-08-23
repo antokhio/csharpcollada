@@ -10,13 +10,12 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_UserType
 	{
 		[XmlAttribute("typename")]
-		public string TypeName;	
-		
+		public string TypeName;
+
 		[XmlAttribute("source")]
-		public string Source;			
-		
-	    [XmlElement(ElementName = "setparam")]
-		public Grendgine_Collada_Set_Param[] SetParam;		
+		public string Source;
+
+		[XmlElement(ElementName = "setparam")]
+		public Grendgine_Collada_Set_Param[] SetParam;
 	}
 }
-

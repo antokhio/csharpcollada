@@ -13,21 +13,20 @@ namespace grendgine_collada
 		public string sID;
 		[XmlAttribute("name")]
 		public string Name;
-		
+
 		[XmlElement(ElementName = "translate")]
 		public Grendgine_Collada_Translate[] Translate;
 
 		[XmlElement(ElementName = "rotate")]
-		public Grendgine_Collada_Rotate[] Rotate;		
+		public Grendgine_Collada_Rotate[] Rotate;
 
 		[XmlElement(ElementName = "attachment_full")]
-		public Grendgine_Collada_Attachment_Full Attachment_Full;	
+		public Grendgine_Collada_Attachment_Full Attachment_Full;
 
 		[XmlElement(ElementName = "attachment_end")]
-		public Grendgine_Collada_Attachment_End Attachment_End;	
+		public Grendgine_Collada_Attachment_End Attachment_End;
 
 		[XmlElement(ElementName = "attachment_start")]
-		public Grendgine_Collada_Attachment_Start Attachment_Start;	
+		public Grendgine_Collada_Attachment_Start Attachment_Start;
 	}
 }
-

@@ -8,13 +8,12 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Swept_Surface
 	{
-		
 		[XmlElement(ElementName = "curve")]
 		public Grendgine_Collada_Curve Curve;
-		
+
 		[XmlElement(ElementName = "origin")]
 		public Grendgine_Collada_Origin Origin;
-		
+
 		[XmlElement(ElementName = "direction")]
 		public Grendgine_Collada_Float_Array_String Direction;
 
@@ -25,4 +24,3 @@ namespace grendgine_collada
 		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

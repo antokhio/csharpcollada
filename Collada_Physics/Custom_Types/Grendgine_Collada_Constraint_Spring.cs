@@ -10,13 +10,10 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="spring", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Constraint_Spring
 	{
-		
 		[XmlElement(ElementName = "linear")]
-		public Grendgine_Collada_Constraint_Spring_Type Linear;	
-		
+		public Grendgine_Collada_Constraint_Spring_Type Linear;
+
 		[XmlElement(ElementName = "angular")]
-		public Grendgine_Collada_Constraint_Spring_Type Angular;			
-		
+		public Grendgine_Collada_Constraint_Spring_Type Angular;
 	}
 }
-

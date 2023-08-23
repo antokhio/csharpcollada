@@ -10,24 +10,21 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Constant
 	{
 		[XmlElement(ElementName = "emission")]
-		public Grendgine_Collada_FX_Common_Color_Or_Texture_Type Eission;		
-		
+		public Grendgine_Collada_FX_Common_Color_Or_Texture_Type Eission;
+
 		[XmlElement(ElementName = "reflective")]
 		public Grendgine_Collada_FX_Common_Color_Or_Texture_Type Reflective;
-		
-		[XmlElement(ElementName = "reflectivity")]
-		public Grendgine_Collada_FX_Common_Float_Or_Param_Type Reflectivity;		
-		
 
-		
+		[XmlElement(ElementName = "reflectivity")]
+		public Grendgine_Collada_FX_Common_Float_Or_Param_Type Reflectivity;
+
 		[XmlElement(ElementName = "transparent")]
 		public Grendgine_Collada_FX_Common_Color_Or_Texture_Type Transparent;
-		
+
 		[XmlElement(ElementName = "transparency")]
-		public Grendgine_Collada_FX_Common_Float_Or_Param_Type Transparency;			
-		
+		public Grendgine_Collada_FX_Common_Float_Or_Param_Type Transparency;
+
 		[XmlElement(ElementName = "index_of_refraction")]
-		public Grendgine_Collada_FX_Common_Float_Or_Param_Type Index_Of_Refraction;			
+		public Grendgine_Collada_FX_Common_Float_Or_Param_Type Index_Of_Refraction;
 	}
 }
-

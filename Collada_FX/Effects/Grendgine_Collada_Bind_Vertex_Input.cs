@@ -17,7 +17,5 @@ namespace grendgine_collada
 
 		[XmlAttribute("input_set")]
 		public int Input_Set;
-		
 	}
 }
-

@@ -11,14 +11,11 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("node")]
 		public string Node;
-		
+
 		[XmlElement(ElementName = "param")]
-		public Grendgine_Collada_Param Param;				
-		
+		public Grendgine_Collada_Param Param;
+
 		[XmlElement(ElementName = "SIDREF")]
-		public string SIDREF;				
-		
-		
+		public string SIDREF;
 	}
 }
-

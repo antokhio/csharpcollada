@@ -14,12 +14,11 @@ namespace grendgine_collada
 
 		[XmlAttribute("target")]
 		public string Target;
-	
+
 		[XmlAttribute("options")]
 		public string Options;
-	
+
 		[XmlElement(ElementName = "binary")]
-		public Grendgine_Collada_Binary Binary;		
+		public Grendgine_Collada_Binary Binary;
 	}
 }
-

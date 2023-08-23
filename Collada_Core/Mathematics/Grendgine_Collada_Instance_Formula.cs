@@ -10,16 +10,14 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("sid")]
 		public string sID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;	
-		
+		public string Name;
+
 		[XmlAttribute("url")]
-		public string URL;		
-		
-		
-	    [XmlElement(ElementName = "setparam")]
-		public Grendgine_Collada_Set_Param[] Set_Param;					
+		public string URL;
+
+		[XmlElement(ElementName = "setparam")]
+		public Grendgine_Collada_Set_Param[] Set_Param;
 	}
 }
-

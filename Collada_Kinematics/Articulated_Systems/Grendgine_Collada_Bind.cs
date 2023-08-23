@@ -11,7 +11,7 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("symbol")]
 		public string Symbol;
-		
+
 		[XmlElement(ElementName = "param")]
 		public Grendgine_Collada_Param Param;
 
@@ -26,7 +26,5 @@ namespace grendgine_collada
 
 		[XmlElement(ElementName = "SIDREF")]
 		public string SIDREF;
-		
 	}
 }
-

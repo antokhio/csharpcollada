@@ -11,10 +11,9 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Size_Ratio
 	{
 		[XmlAttribute("width")]
-		public float Width;	
+		public float Width;
 
 		[XmlAttribute("height")]
 		public float Height;
 	}
 }
-

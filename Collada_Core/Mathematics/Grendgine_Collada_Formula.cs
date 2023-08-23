@@ -10,27 +10,23 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;		
+		public string Name;
 
 		[XmlAttribute("sid")]
 		public string sID;
-	
-		
-	    [XmlElement(ElementName = "newparam")]
+
+		[XmlElement(ElementName = "newparam")]
 		public Grendgine_Collada_New_Param[] New_Param;
-	    
+
 		[XmlElement(ElementName = "technique_common")]
 		public Grendgine_Collada_Technique_Common_Formula Technique_Common;
-	    
+
 		[XmlElement(ElementName = "technique")]
-		public Grendgine_Collada_Technique[] Technique;		
-		
-		
+		public Grendgine_Collada_Technique[] Technique;
+
 		[XmlElement(ElementName = "target")]
-		public Grendgine_Collada_Common_Float_Or_Param_Type Target;		
-		
+		public Grendgine_Collada_Common_Float_Or_Param_Type Target;
 	}
 }
-

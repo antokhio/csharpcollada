@@ -10,9 +10,8 @@ namespace grendgine_collada
 		ADD,
 		ADD_SIGNED,
 		INTERPOLATE,
-		SUBTRACT,		
+		SUBTRACT,
 		DOT3_RGB,
 		DOT3_RGBA
 	}
 }
-

@@ -10,28 +10,25 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Color_Target
 	{
 		[XmlAttribute("index")]
-	    [System.ComponentModel.DefaultValueAttribute(typeof(int), "0")]
+		[System.ComponentModel.DefaultValueAttribute(typeof(int), "0")]
 		public int Index;
-		
+
 		[XmlAttribute("slice")]
-	    [System.ComponentModel.DefaultValueAttribute(typeof(int), "0")]
+		[System.ComponentModel.DefaultValueAttribute(typeof(int), "0")]
 		public int Slice;
 
 		[XmlAttribute("mip")]
-	    [System.ComponentModel.DefaultValueAttribute(typeof(int), "0")]
+		[System.ComponentModel.DefaultValueAttribute(typeof(int), "0")]
 		public int Mip;
 
 		[XmlAttribute("face")]
 		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Face.POSITIVE_X)]
 		public Grendgine_Collada_Face Face;
-		
+
 		[XmlElement(ElementName = "param")]
-		public Grendgine_Collada_Param Param;	
-		
-			
+		public Grendgine_Collada_Param Param;
+
 		[XmlElement(ElementName = "instance_image")]
-		public Grendgine_Collada_Instance_Image Instance_Image;	
-			
+		public Grendgine_Collada_Instance_Image Instance_Image;
 	}
 }
-

@@ -11,22 +11,20 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("sid")]
 		public string sID;
 
 		[XmlAttribute("name")]
-		public string Name;	
-		
-		
+		public string Name;
+
 		[XmlElement(ElementName = "technique_common")]
 		public Grendgine_Collada_Technique_Common_Rigid_Body Technique_Common;
-	    
+
 		[XmlElement(ElementName = "technique")]
-		public Grendgine_Collada_Technique[] Technique;			
-		
-	    [XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Technique[] Technique;
+
+		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

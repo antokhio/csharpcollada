@@ -11,10 +11,8 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("sid")]
 		public string sID;
-		
-		[XmlAttribute("url")]
-		public string URL;		
 
+		[XmlAttribute("url")]
+		public string URL;
 	}
 }
-

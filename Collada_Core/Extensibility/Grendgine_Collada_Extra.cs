@@ -14,13 +14,12 @@ namespace grendgine_collada
 		[XmlAttribute("name")]
 		public string Name;
 		[XmlAttribute("type")]
-		public string Type;		
-		
+		public string Type;
+
 		[XmlElement(ElementName = "asset")]
-		public Grendgine_Collada_Asset Asset;		
-		
+		public Grendgine_Collada_Asset Asset;
+
 		[XmlElement(ElementName = "technique")]
-		public Grendgine_Collada_Technique[] Technique;		
+		public Grendgine_Collada_Technique[] Technique;
 	}
 }
-

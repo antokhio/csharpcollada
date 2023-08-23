@@ -11,9 +11,8 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("semantic")]
 		public string Semantic;
-		
+
 		[XmlAttribute("target")]
-		public string Target;		
+		public string Target;
 	}
 }
-

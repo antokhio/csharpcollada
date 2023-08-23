@@ -11,23 +11,21 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Technique_Common_Kinematics_Model : Grendgine_Collada_Technique_Common
 	{
 		[XmlElement(ElementName = "newparam")]
-		public Grendgine_Collada_New_Param[] New_Param;	
+		public Grendgine_Collada_New_Param[] New_Param;
 
 		[XmlElement(ElementName = "joint")]
-		public Grendgine_Collada_Joint[] Joint;	
+		public Grendgine_Collada_Joint[] Joint;
 
 		[XmlElement(ElementName = "instance_joint")]
-		public Grendgine_Collada_Instance_Joint[] Instance_Joint;	
+		public Grendgine_Collada_Instance_Joint[] Instance_Joint;
 
 		[XmlElement(ElementName = "link")]
-		public Grendgine_Collada_Link[] Link;	
+		public Grendgine_Collada_Link[] Link;
 
 		[XmlElement(ElementName = "formula")]
-		public Grendgine_Collada_Formula[] Formula;	
-		
+		public Grendgine_Collada_Formula[] Formula;
+
 		[XmlElement(ElementName = "instance_formula")]
-		public Grendgine_Collada_Instance_Formula[] Instance_Formula;	
-		
+		public Grendgine_Collada_Instance_Formula[] Instance_Formula;
 	}
 }
-

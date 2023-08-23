@@ -11,7 +11,7 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("link")]
 		public string Link;
-		
+
 		[XmlElement(ElementName = "translate")]
 		public Grendgine_Collada_Translate[] Translate;
 
@@ -19,4 +19,3 @@ namespace grendgine_collada
 		public Grendgine_Collada_Rotate[] Rotate;	 
 	}
 }
-

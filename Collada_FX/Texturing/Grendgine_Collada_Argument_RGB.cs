@@ -15,10 +15,8 @@ namespace grendgine_collada
 		[XmlAttribute("operand")]
 		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Argument_RGB_Operand.SRC_COLOR)]
 		public Grendgine_Collada_Argument_RGB_Operand Operand;
-				
+
 		[XmlAttribute("sampler")]
 		public string Sampler;
-		
 	}
 }
-

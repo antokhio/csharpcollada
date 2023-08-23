@@ -11,7 +11,6 @@ namespace grendgine_collada
 	{
 		//TODO: cleanup to legit array
 		[XmlTextAttribute()]
-	    public string Value_Pre_Parse;
-
+		public string Value_Pre_Parse;
 	}
 }

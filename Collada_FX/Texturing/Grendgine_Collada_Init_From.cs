@@ -11,25 +11,24 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("mips_generate")]
 		public bool Mips_Generate;
-		
+
 		[XmlAttribute("array_index")]
 		public int Array_Index;
-		
+
 		[XmlAttribute("mip_index")]
 		public int Mip_Index;
-		
+
 		[XmlAttribute("depth")]
 		public int Depth;
-		
+
 		[XmlAttribute("face")]
 		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Face.POSITIVE_X)]
 		public Grendgine_Collada_Face Face;
-		
-	    [XmlElement(ElementName = "ref")]
-		public string Ref;			
-		
-	    [XmlElement(ElementName = "hex")]
-		public Grendgine_Collada_Hex Hex;			
+
+		[XmlElement(ElementName = "ref")]
+		public string Ref;
+
+		[XmlElement(ElementName = "hex")]
+		public Grendgine_Collada_Hex Hex;
 	}
 }
-

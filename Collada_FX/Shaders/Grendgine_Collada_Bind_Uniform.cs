@@ -13,13 +13,12 @@ namespace grendgine_collada
 		public string Symbol;
 
 		[XmlElement(ElementName = "param")]
-		public Grendgine_Collada_Param Param;	
-		
+		public Grendgine_Collada_Param Param;
+
 		/// <summary>
 		/// The element is the type and the element text is the value or space delimited list of values
 		/// </summary>
 		[XmlAnyElement]
-		public XmlElement[] Data;	
+		public XmlElement[] Data;
 	}
 }
-

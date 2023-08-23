@@ -16,21 +16,20 @@ namespace grendgine_collada
 		public string Name;
 
 		[XmlAttribute("url")]
-		public string URL;	
-		
+		public string URL;
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
+
+		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra;
-		
-	    [XmlElement(ElementName = "newparam")]
+
+		[XmlElement(ElementName = "newparam")]
 		public Grendgine_Collada_New_Param[] New_Param;
 
 		[XmlElement(ElementName = "setparam")]
 		public Grendgine_Collada_Set_Param[] Set_Param;
-		
-		
+
 		[XmlElement(ElementName = "bind_kinematics_model")]
 		public Grendgine_Collada_Bind_Kinematics_Model[] Bind_Kenematics_Model;
 
@@ -38,4 +37,3 @@ namespace grendgine_collada
 		public Grendgine_Collada_Bind_Joint_Axis[] Bind_Joint_Axis;
 	}
 }
-

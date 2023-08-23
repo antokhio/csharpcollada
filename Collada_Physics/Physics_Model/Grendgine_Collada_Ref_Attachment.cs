@@ -11,15 +11,14 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("rigid_body")]
 		public string Rigid_Body;
-		
+
 		[XmlElement(ElementName = "translate")]
 		public Grendgine_Collada_Translate[] Translate;
 
 		[XmlElement(ElementName = "rotate")]
 		public Grendgine_Collada_Rotate[] Rotate;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;		
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

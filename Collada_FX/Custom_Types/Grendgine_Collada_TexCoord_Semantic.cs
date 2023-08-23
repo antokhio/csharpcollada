@@ -11,9 +11,7 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_TexCoord_Semantic
 	{
 
-
 		[XmlAttribute("semantic")]
-		public string Semantic;	
+		public string Semantic;
 	}
 }
-

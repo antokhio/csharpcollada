@@ -8,7 +8,6 @@ namespace grendgine_collada
 		SRC_COLOR,
 		ONE_MINUS_SRC_COLOR,
 		SRC_ALPHA,
-		ONE_MINUS_SRC_ALPHA		
+		ONE_MINUS_SRC_ALPHA
 	}
 }
-

@@ -10,8 +10,7 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Stencil_Clear
 	{
 		[XmlAttribute("index")]
-	    [System.ComponentModel.DefaultValueAttribute(typeof(int), "0")]
-		public int Index;	
+		[System.ComponentModel.DefaultValueAttribute(typeof(int), "0")]
+		public int Index;
 	}
 }
-

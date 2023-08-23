@@ -10,10 +10,9 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Shader_GLES2 : Grendgine_Collada_Shader
 	{
 
-	    [XmlElement(ElementName = "compiler")]
-		public Grendgine_Collada_Compiler[] Compiler;			
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;	
+		[XmlElement(ElementName = "compiler")]
+		public Grendgine_Collada_Compiler[] Compiler;
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

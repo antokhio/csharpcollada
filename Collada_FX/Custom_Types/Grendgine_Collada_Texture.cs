@@ -12,12 +12,11 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("texture")]
 		public string Texture;
-		
+
 		[XmlAttribute("texcoord")]
 		public string TexCoord;
 
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;			
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

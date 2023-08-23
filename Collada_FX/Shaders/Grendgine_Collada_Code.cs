@@ -13,7 +13,6 @@ namespace grendgine_collada
 		public string sID;
 
 		[XmlTextAttribute()]
-	    public string Value;
+		public string Value;
 	}
 }
-

@@ -10,8 +10,7 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Program_CG
 	{
 
-	    [XmlElement(ElementName = "shader")]
-		public Grendgine_Collada_Shader_CG[] Shader;	
+		[XmlElement(ElementName = "shader")]
+		public Grendgine_Collada_Shader_CG[] Shader;
 	}
 }
-

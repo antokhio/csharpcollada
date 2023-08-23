@@ -11,14 +11,11 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("platform")]
 		public string Platform;
-		
-		[XmlAttribute("ref")]
-		public string Ref;		
-		
-		[XmlAttribute("profile")]
-		public string Profile;		
 
-		
+		[XmlAttribute("ref")]
+		public string Ref;
+
+		[XmlAttribute("profile")]
+		public string Profile;
 	}
 }
-

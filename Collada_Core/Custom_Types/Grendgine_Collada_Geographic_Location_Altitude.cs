@@ -12,11 +12,9 @@ namespace grendgine_collada
 
 		[XmlTextAttribute()]
 		public float Altitude;
-		
+
 		[XmlAttribute("mode")]
 		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Geographic_Location_Altitude_Mode.relativeToGround)]
-		public Grendgine_Collada_Geographic_Location_Altitude_Mode Mode;	
-		
+		public Grendgine_Collada_Geographic_Location_Altitude_Mode Mode;
 	}
 }
-

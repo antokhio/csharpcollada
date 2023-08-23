@@ -11,24 +11,23 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("sid")]
 		public string sID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;		
-		
+		public string Name;
+
 		[XmlAttribute("target")]
-		public string Target;	
-		
+		public string Target;
+
 		[XmlAttribute("symbol")]
-		public string Symbol;	
-		
-	    [XmlElement(ElementName = "bind")]
-		public Grendgine_Collada_Bind_FX[] Bind;	
-		
-	    [XmlElement(ElementName = "bind_vertex_input")]
-		public Grendgine_Collada_Bind_Vertex_Input[] Bind_Vertex_Input;	
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;		
+		public string Symbol;
+
+		[XmlElement(ElementName = "bind")]
+		public Grendgine_Collada_Bind_FX[] Bind;
+
+		[XmlElement(ElementName = "bind_vertex_input")]
+		public Grendgine_Collada_Bind_Vertex_Input[] Bind_Vertex_Input;
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

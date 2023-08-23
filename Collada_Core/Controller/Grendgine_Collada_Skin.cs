@@ -11,20 +11,19 @@ namespace grendgine_collada
 		[XmlAttribute("sid")]
 		public string sID;
 
-	    [XmlElement(ElementName = "bind_shape_matrix")]
-		public Grendgine_Collada_Float_Array_String Bind_Shape_Matrix;		
-				
-	    [XmlElement(ElementName = "source")]
-		public Grendgine_Collada_Source[] Source;		
+		[XmlElement(ElementName = "bind_shape_matrix")]
+		public Grendgine_Collada_Float_Array_String Bind_Shape_Matrix;
 
-	    [XmlElement(ElementName = "joints")]
-		public Grendgine_Collada_Joints Joints;		
+		[XmlElement(ElementName = "source")]
+		public Grendgine_Collada_Source[] Source;
 
-	    [XmlElement(ElementName = "vertex_weights")]
-		public Grendgine_Collada_Vertex_Weights Vertex_Weights;		
-				
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;		
+		[XmlElement(ElementName = "joints")]
+		public Grendgine_Collada_Joints Joints;
+
+		[XmlElement(ElementName = "vertex_weights")]
+		public Grendgine_Collada_Vertex_Weights Vertex_Weights;
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

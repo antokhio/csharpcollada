@@ -10,19 +10,17 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("sid")]
 		public string sID;
-		
-		[XmlAttribute("name")]
-		public string Name;	
-		
-		[XmlAttribute("url")]
-		public string URL;	
-		
-		[XmlAttribute("proxy")]
-		public string Proxy;	
 
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;	
+		[XmlAttribute("name")]
+		public string Name;
+
+		[XmlAttribute("url")]
+		public string URL;
+
+		[XmlAttribute("proxy")]
+		public string Proxy;
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

@@ -11,10 +11,9 @@ namespace grendgine_collada
 	{
 
 		[XmlAttribute("width")]
-		public int Width;	
+		public int Width;
 
 		[XmlAttribute("height")]
-		public int Height;	
+		public int Height;
 	}
 }
-

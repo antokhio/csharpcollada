@@ -9,7 +9,5 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="sampler_image", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Sampler_Image : Grendgine_Collada_Instance_Image
 	{
-		
 	}
 }
-

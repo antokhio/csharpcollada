@@ -9,7 +9,5 @@ namespace grendgine_collada
 		NEAREST,
 		LINEAR,
 		ANISOTROPIC
-		
 	}
 }
-

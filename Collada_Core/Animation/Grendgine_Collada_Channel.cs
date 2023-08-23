@@ -10,10 +10,8 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("source")]
 		public string Source;
-		
+
 		[XmlAttribute("target")]
-		public string Target;		
-		
+		public string Target;
 	}
 }
-

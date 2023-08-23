@@ -11,23 +11,20 @@ namespace grendgine_collada
 
 		[XmlAttribute("id")]
 		public string ID;
-		
-		[XmlAttribute("name")]
-		public string Name;			
 
-		
+		[XmlAttribute("name")]
+		public string Name;
+
 		[XmlElement(ElementName = "skin")]
 		public Grendgine_Collada_Skin Skin;
-		
+
 		[XmlElement(ElementName = "morph")]
 		public Grendgine_Collada_Morph Morph;
-		
-		
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;	
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

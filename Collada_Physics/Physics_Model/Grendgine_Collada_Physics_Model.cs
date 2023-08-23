@@ -11,24 +11,23 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;		
-		
-	    [XmlElement(ElementName = "rigid_body")]
-		public Grendgine_Collada_Rigid_Body[] Rigid_Body;			
-		
-	    [XmlElement(ElementName = "rigid_constraint")]
-		public Grendgine_Collada_Rigid_Constraint[] Rigid_Constraint;			
-		
-	    [XmlElement(ElementName = "instance_physics_model")]
-		public Grendgine_Collada_Instance_Physics_Model[] Instance_Physics_Model;			
-		
+		public string Name;
+
+		[XmlElement(ElementName = "rigid_body")]
+		public Grendgine_Collada_Rigid_Body[] Rigid_Body;
+
+		[XmlElement(ElementName = "rigid_constraint")]
+		public Grendgine_Collada_Rigid_Constraint[] Rigid_Constraint;
+
+		[XmlElement(ElementName = "instance_physics_model")]
+		public Grendgine_Collada_Instance_Physics_Model[] Instance_Physics_Model;
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;		
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

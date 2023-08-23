@@ -10,14 +10,13 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Alpha
 	{
 		[XmlAttribute("operator")]
-		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Alpha_Operator.ADD)]		
+		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Alpha_Operator.ADD)]
 		public Grendgine_Collada_Alpha_Operator Operator;
 
 		[XmlAttribute("scale")]
-		public float Scale;		
-		
-	    [XmlElement(ElementName = "argument")]
-		public Grendgine_Collada_Argument_Alpha[] Argument;			
+		public float Scale;
+
+		[XmlElement(ElementName = "argument")]
+		public Grendgine_Collada_Argument_Alpha[] Argument;
 	}
 }
-

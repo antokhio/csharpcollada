@@ -10,21 +10,20 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("sid")]
 		public string sID;
-		
+
 		[XmlElement(ElementName = "semantic")]
-		public string Semantic;				
-		
+		public string Semantic;
+
 		[XmlElement(ElementName = "modifier")]
-		public string Modifier;				
-		
+		public string Modifier;
+
 		[XmlElement("annotate")]
 		public Grendgine_Collada_Annotate[] Annotate;
-	
+
 		/// <summary>
 		/// The element is the type and the element text is the value or space delimited list of values
 		/// </summary>
 		[XmlAnyElement]
-		public XmlElement[] Data;	
+		public XmlElement[] Data;
 	}
 }
-

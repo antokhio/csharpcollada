@@ -13,10 +13,9 @@ namespace grendgine_collada
 		public Grendgine_Collada_TexEnv_Operator Operator;
 
 		[XmlAttribute("sampler")]
-		public string Sampler;		
-		
+		public string Sampler;
+
 		[XmlElement(ElementName = "constant")]
-		public Grendgine_Collada_Constant_Attribute Constant;		
+		public Grendgine_Collada_Constant_Attribute Constant;
 	}
 }
-

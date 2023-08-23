@@ -10,10 +10,9 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Bind_Attribute
 	{
 		[XmlAttribute("symbol")]
-		public string Symbol;	
-		
+		public string Symbol;
+
 		[XmlElement(ElementName = "semantic")]
-		public Grendgine_Collada_Semantic Semantic;		
+		public Grendgine_Collada_Semantic Semantic;
 	}
 }
-

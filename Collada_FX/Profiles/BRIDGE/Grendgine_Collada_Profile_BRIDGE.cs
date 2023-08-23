@@ -11,9 +11,8 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("platform")]
 		public string Platform;
-		
+
 		[XmlAttribute("url")]
-		public string URL;	
+		public string URL;
 	}
 }
-

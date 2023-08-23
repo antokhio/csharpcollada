@@ -13,8 +13,6 @@ namespace grendgine_collada
 		/// Need to determine the type and value of the Object(s)
 		/// </summary>
 		[XmlAnyElement]
-		public XmlElement[] Data;	
-		
+		public XmlElement[] Data;
 	}
 }
-

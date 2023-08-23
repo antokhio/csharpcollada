@@ -11,13 +11,12 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("operator")]
 		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_RGB_Operator.ADD)]
-		public Grendgine_Collada_RGB_Operator Operator;	
+		public Grendgine_Collada_RGB_Operator Operator;
 
 		[XmlAttribute("scale")]
-		public float Scale;	
-		
-	    [XmlElement(ElementName = "argument")]
-		public Grendgine_Collada_Argument_RGB[] Argument;			
+		public float Scale;
+
+		[XmlElement(ElementName = "argument")]
+		public Grendgine_Collada_Argument_RGB[] Argument;
 	}
 }
-

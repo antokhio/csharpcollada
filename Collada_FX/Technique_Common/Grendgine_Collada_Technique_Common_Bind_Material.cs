@@ -10,10 +10,8 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="technique_common", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Technique_Common_Bind_Material : Grendgine_Collada_Technique_Common
 	{
-	    
+
 		[XmlElement(ElementName = "instance_material")]
-		public Grendgine_Collada_Instance_Material_Geometry[] Instance_Material;	
-		
+		public Grendgine_Collada_Instance_Material_Geometry[] Instance_Material;
 	}
 }
-

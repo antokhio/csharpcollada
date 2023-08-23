@@ -11,13 +11,9 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("stage")]
 		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Shader_Stage.VERTEX)]
-		public Grendgine_Collada_Shader_Stage Stage;		
+		public Grendgine_Collada_Shader_Stage Stage;
 
-	    [XmlElement(ElementName = "sources")]
-		public Grendgine_Collada_Shader_Sources Sources;	
-
-
-
+		[XmlElement(ElementName = "sources")]
+		public Grendgine_Collada_Shader_Sources Sources;
 	}
 }
-

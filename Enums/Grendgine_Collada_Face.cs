@@ -10,8 +10,6 @@ namespace grendgine_collada
 		POSITIVE_Y, 
 		NEGATIVE_Y, 
 		POSITIVE_Z, 
-		NEGATIVE_Z		
-		
+		NEGATIVE_Z
 	}
 }
-

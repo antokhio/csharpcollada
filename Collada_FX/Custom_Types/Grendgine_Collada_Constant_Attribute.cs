@@ -10,12 +10,11 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Constant_Attribute
 	{
 		[XmlAttribute("value")]
-		public string Value_As_String;		
+		public string Value_As_String;
 		//TODO: needs to be 4 float array
-				
+
 		[XmlAttribute("param")]
 		public string Param_As_String;
 		//TODO: needs to be 4 float array
 	}
 }
-

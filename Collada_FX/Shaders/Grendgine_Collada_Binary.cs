@@ -11,9 +11,8 @@ namespace grendgine_collada
 	{
 		[XmlElement(ElementName = "ref")]
 		public string Ref;
-		
+
 		[XmlElement(ElementName = "hex")]
-		public Grendgine_Collada_Hex Hex;		
+		public Grendgine_Collada_Hex Hex;
 	}
 }
-

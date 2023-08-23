@@ -10,22 +10,21 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Render
 	{
 		[XmlAttribute("name")]
-		public string Name;	
-		
+		public string Name;
+
 		[XmlAttribute("sid")]
 		public string sid;
-		
+
 		[XmlAttribute("camera_node")]
 		public string Camera_Node;
-		
-	    [XmlElement(ElementName = "layer")]
-		public string[] Layer;			
-		
-	    [XmlElement(ElementName = "instance_material")]
-		public Grendgine_Collada_Instance_Material_Rendering Instance_Material;			
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;			
+
+		[XmlElement(ElementName = "layer")]
+		public string[] Layer;
+
+		[XmlElement(ElementName = "instance_material")]
+		public Grendgine_Collada_Instance_Material_Rendering Instance_Material;
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

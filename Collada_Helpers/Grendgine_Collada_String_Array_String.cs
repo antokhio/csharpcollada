@@ -7,6 +7,6 @@ namespace grendgine_collada
 	{
 		public string[] Value(){
 			return this.Value_Pre_Parse.Split(' ');
-		}		
+		}
 	}
 }

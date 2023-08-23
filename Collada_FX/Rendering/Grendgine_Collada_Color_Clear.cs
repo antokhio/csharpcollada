@@ -10,9 +10,7 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Color_Clear : Grendgine_Collada_Float_Array_String
 	{
 		[XmlAttribute("index")]
-	    [System.ComponentModel.DefaultValueAttribute(typeof(int), "0")]
+		[System.ComponentModel.DefaultValueAttribute(typeof(int), "0")]
 		public int Index;
-
 	}
 }
-

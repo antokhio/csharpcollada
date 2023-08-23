@@ -12,13 +12,12 @@ namespace grendgine_collada
 	{
 
 		[XmlElement(ElementName = "stiffness")]
-		public Grendgine_Collada_SID_Float Stiffness;	
-		
+		public Grendgine_Collada_SID_Float Stiffness;
+
 		[XmlElement(ElementName = "damping")]
-		public Grendgine_Collada_SID_Float Damping;	
-		
+		public Grendgine_Collada_SID_Float Damping;
+
 		[XmlElement(ElementName = "target_value")]
-		public Grendgine_Collada_SID_Float Target_Value;			
+		public Grendgine_Collada_SID_Float Target_Value;
 	}
 }
-

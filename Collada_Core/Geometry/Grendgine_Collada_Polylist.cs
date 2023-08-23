@@ -8,12 +8,7 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Polylist : Grendgine_Collada_Geometry_Common_Fields
 	{
-		
-
 		[XmlElement(ElementName = "vcount")]
-		public Grendgine_Collada_Int_Array_String VCount;			
-		
-		
+		public Grendgine_Collada_Int_Array_String VCount;
 	}
 }
-

@@ -13,4 +13,3 @@ namespace grendgine_collada
 		public string Ref;
 	}
 }
-

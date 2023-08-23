@@ -11,13 +11,11 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("name")]
 		public string Name;
-		
+
 		/// <summary>
 		/// Need to determine the type and value of the Object(s)
 		/// </summary>
 		[XmlAnyElement]
-		public XmlElement[] Data;		
-		
+		public XmlElement[] Data;
 	}
 }
-

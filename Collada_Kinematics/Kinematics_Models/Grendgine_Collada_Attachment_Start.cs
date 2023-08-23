@@ -11,12 +11,11 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("joint")]
 		public string Joint;
-		
+
 		[XmlElement(ElementName = "translate")]
 		public Grendgine_Collada_Translate[] Translate;
 
 		[XmlElement(ElementName = "rotate")]
-		public Grendgine_Collada_Rotate[] Rotate;	
+		public Grendgine_Collada_Rotate[] Rotate;
 	}
 }
-

@@ -10,10 +10,9 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="limits", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Kinematics_Limits
 	{
-	    [XmlElement(ElementName = "min")]
-		public Grendgine_Collada_SID_Name_Float Min;	
-	    [XmlElement(ElementName = "max")]
-		public Grendgine_Collada_SID_Name_Float Max;			
+		[XmlElement(ElementName = "min")]
+		public Grendgine_Collada_SID_Name_Float Min;
+		[XmlElement(ElementName = "max")]
+		public Grendgine_Collada_SID_Name_Float Max;
 	}
 }
-

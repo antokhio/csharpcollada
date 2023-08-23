@@ -23,7 +23,7 @@ namespace grendgine_collada
 			}
 			return array;
 		}
-		
+
 		public static float[] String_To_Float(string float_array)
 		{
 			string[] str = float_array.Split(' ');
@@ -43,7 +43,7 @@ namespace grendgine_collada
 			}
 			return array;
 		}
-	
+
 		public static bool[] String_To_Bool(string bool_array)
 		{
 			string[] str = bool_array.Split(' ');
@@ -63,8 +63,5 @@ namespace grendgine_collada
 			}
 			return array;
 		}
-		
-
-		
 	}
 }

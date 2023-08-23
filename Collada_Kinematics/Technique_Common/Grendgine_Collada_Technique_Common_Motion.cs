@@ -10,13 +10,10 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="technique_common", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Technique_Common_Motion : Grendgine_Collada_Technique_Common
 	{
-		
 		[XmlElement(ElementName = "axis_info")]
-		public Grendgine_Collada_Axis_Info_Motion[] Axis_Info;	
-		
+		public Grendgine_Collada_Axis_Info_Motion[] Axis_Info;
+
 		[XmlElement(ElementName = "effector_info")]
-		public Grendgine_Collada_Effector_Info Effector_Info;			
-		
+		public Grendgine_Collada_Effector_Info Effector_Info;
 	}
 }
-

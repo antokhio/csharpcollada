@@ -11,19 +11,17 @@ namespace grendgine_collada
 
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;	
-		
-		
-	    [XmlElement(ElementName = "animation_clip")]
-		public Grendgine_Collada_Animation_Clip[] Animation_Clip;	
-		
+		public string Name;
+
+		[XmlElement(ElementName = "animation_clip")]
+		public Grendgine_Collada_Animation_Clip[] Animation_Clip;
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;	
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

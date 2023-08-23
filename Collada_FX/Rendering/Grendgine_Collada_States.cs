@@ -10,7 +10,6 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_States
 	{
 
-		
 		//TODO: clean these up, its a massive list
 /// <summary>
 /// Needs some runtime cleanup: valid attributes of each element are value, index, and param. the element name is the type
@@ -20,11 +19,9 @@ namespace grendgine_collada
 /// 	<light_ambient value="1 1 1 0" index="0"/> 
 /// 	<light_diffuse param="someparam" />
 /// </states>
-/// </summary>	
-		
+/// </summary>
+
 		[XmlAnyElement]
-		public XmlElement[] Data;	
-		
+		public XmlElement[] Data;
 	}
 }
-

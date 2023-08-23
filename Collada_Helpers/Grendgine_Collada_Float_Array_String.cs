@@ -9,4 +9,3 @@ namespace grendgine_collada
 		}
 	}
 }
-

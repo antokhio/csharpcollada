@@ -9,4 +9,3 @@ namespace grendgine_collada
 		ONE_MINUS_SRC_ALPHA
 	}
 }
-

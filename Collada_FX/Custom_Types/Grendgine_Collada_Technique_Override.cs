@@ -11,9 +11,8 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Technique_Override
 	{
 		[XmlAttribute("ref")]
-		public string Ref;	
+		public string Ref;
 		[XmlAttribute("pass")]
-		public string Pass;			
+		public string Pass;
 	}
 }
-

@@ -12,7 +12,6 @@ namespace grendgine_collada
 		//TODO: cleanup to legit array
 
 		[XmlTextAttribute()]
-	    public string Value_As_String;
+		public string Value_As_String;
 	}
 }
-

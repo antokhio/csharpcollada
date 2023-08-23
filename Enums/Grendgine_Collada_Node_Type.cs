@@ -7,7 +7,6 @@ namespace grendgine_collada
 	{
 		JOINT,
 
-		NODE		
+		NODE
 	}
 }
-

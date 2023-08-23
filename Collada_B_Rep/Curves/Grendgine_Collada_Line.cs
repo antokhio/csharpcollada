@@ -10,12 +10,11 @@ namespace grendgine_collada
 	{
 		[XmlElement(ElementName = "origin")]
 		public Grendgine_Collada_Origin Origin;
-		
+
 		[XmlElement(ElementName = "direction")]
 		public Grendgine_Collada_Float_Array_String Direction;
-				
+
 		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

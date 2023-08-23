@@ -11,7 +11,6 @@ namespace grendgine_collada
 	{
 
 		[XmlAttribute("share")]
-		public bool Share;	
+		public bool Share;
 	}
 }
-

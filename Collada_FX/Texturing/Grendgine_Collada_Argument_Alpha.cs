@@ -15,10 +15,8 @@ namespace grendgine_collada
 		[XmlAttribute("operand")]
 		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Argument_Alpha_Operand.SRC_ALPHA)]
 		public Grendgine_Collada_Argument_Alpha_Operand Operand;
-				
+
 		[XmlAttribute("sampler")]
 		public string Sampler;
-		
 	}
 }
-

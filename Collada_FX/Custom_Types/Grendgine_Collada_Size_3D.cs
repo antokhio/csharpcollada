@@ -11,15 +11,13 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Size_3D
 	{
 
-
 		[XmlAttribute("width")]
-		public int Width;	
+		public int Width;
 
 		[XmlAttribute("height")]
-		public int Height;	
+		public int Height;
 
 		[XmlAttribute("depth")]
-		public int Depth;			
+		public int Depth;
 	}
 }
-

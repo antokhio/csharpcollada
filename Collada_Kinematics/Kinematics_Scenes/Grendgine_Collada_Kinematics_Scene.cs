@@ -11,22 +11,20 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;	
-		
-		
+		public string Name;
+
 		[XmlElement(ElementName = "instance_kinematics_model")]
 		public Grendgine_Collada_Instance_Kinematics_Model[] Instance_Kinematics_Model;
-	    
+
 		[XmlElement(ElementName = "instance_articulated_system")]
-		public Grendgine_Collada_Instance_Articulated_System[] Instance_Articulated_System;			
-		
+		public Grendgine_Collada_Instance_Articulated_System[] Instance_Articulated_System;
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
+
+		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra; 
 	}
 }
-

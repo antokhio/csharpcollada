@@ -10,22 +10,20 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("count")]
 		public int Count;
-		
+
 		[XmlAttribute("name")]
 		public string Name;
-		
+
 		[XmlAttribute("material")]
 		public string Material;
 
-	    [XmlElement(ElementName = "p")]
-		public Grendgine_Collada_Int_Array_String P;		
+		[XmlElement(ElementName = "p")]
+		public Grendgine_Collada_Int_Array_String P;
 
 		[XmlElement(ElementName = "input")]
-		public Grendgine_Collada_Input_Shared[] Input;		
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;		
-		
+		public Grendgine_Collada_Input_Shared[] Input;
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

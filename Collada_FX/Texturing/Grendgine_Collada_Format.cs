@@ -10,10 +10,9 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Format
 	{
 		[XmlElement(ElementName = "hint")]
-		public Grendgine_Collada_Format_Hint Hint;	
-		
+		public Grendgine_Collada_Format_Hint Hint;
+
 		[XmlElement(ElementName = "exact")]
-		public string Exact;	
+		public string Exact;
 	}
 }
-

@@ -12,4 +12,3 @@ namespace grendgine_collada
 		FLOAT
 	}
 }
-

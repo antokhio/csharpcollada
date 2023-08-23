@@ -11,7 +11,6 @@ namespace grendgine_collada
 	{
 		[XmlTextAttribute()]
 		[System.ComponentModel.DefaultValueAttribute(Grendgine_Collada_Modifier_Value.CONST)]
-	    public Grendgine_Collada_Modifier_Value Value;
+		public Grendgine_Collada_Modifier_Value Value;
 	}
 }
-

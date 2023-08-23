@@ -11,22 +11,18 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Technique_Common_Kinematics : Grendgine_Collada_Technique_Common
 	{
 		[XmlElement(ElementName = "axis_info")]
-		public Grendgine_Collada_Axis_Info_Kinematics[] Axis_Info;	
-		
+		public Grendgine_Collada_Axis_Info_Kinematics[] Axis_Info;
+
 		[XmlElement(ElementName = "frame_origin")]
 		public Grendgine_Collada_Frame_Origin Frame_Origin;
-		
+
 		[XmlElement(ElementName = "frame_tip")]
 		public Grendgine_Collada_Frame_Tip Frame_Tip;
-		
+
 		[XmlElement(ElementName = "frame_tcp")]
 		public Grendgine_Collada_Frame_TCP Frame_TCP;
-		
+
 		[XmlElement(ElementName = "frame_object")]
 		public Grendgine_Collada_Frame_Object Frame_Object;
-		
-		
-		
 	}
 }
-

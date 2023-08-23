@@ -10,14 +10,13 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Program_GLSL
 	{
 
-	    [XmlElement(ElementName = "shader")]
-		public Grendgine_Collada_Shader_GLSL[] Shader;	
-		
-	    [XmlElement(ElementName = "bind_attribute")]
-		public Grendgine_Collada_Bind_Attribute[] Bind_Attribute;			
+		[XmlElement(ElementName = "shader")]
+		public Grendgine_Collada_Shader_GLSL[] Shader;
 
-	    [XmlElement(ElementName = "bind_uniform")]
-		public Grendgine_Collada_Bind_Uniform[] Bind_Uniform;	
+		[XmlElement(ElementName = "bind_attribute")]
+		public Grendgine_Collada_Bind_Attribute[] Bind_Attribute;
+
+		[XmlElement(ElementName = "bind_uniform")]
+		public Grendgine_Collada_Bind_Uniform[] Bind_Uniform;
 	}
 }
-

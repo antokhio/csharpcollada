@@ -16,29 +16,26 @@ namespace grendgine_collada
 
 		[XmlElement(ElementName = "velocity")]
 		public Grendgine_Collada_Float_Array_String Velocity;
-		
+
 		[XmlElement(ElementName = "dynamic")]
 		public Grendgine_Collada_SID_Bool Dynamic;
-		
+
 		[XmlElement(ElementName = "mass")]
-		public Grendgine_Collada_SID_Float Mass;		
-		
+		public Grendgine_Collada_SID_Float Mass;
+
 		[XmlElement(ElementName = "inertia")]
-		public Grendgine_Collada_SID_Float_Array_String Inertia;		
-		
+		public Grendgine_Collada_SID_Float_Array_String Inertia;
+
 		[XmlElement(ElementName = "mass_frame")]
-		public Grendgine_Collada_Mass_Frame Mass_Frame;		
-		
-		
+		public Grendgine_Collada_Mass_Frame Mass_Frame;
+
 		[XmlElement(ElementName = "physics_material")]
-		public Grendgine_Collada_Physics_Material Physics_Material;		
-		
+		public Grendgine_Collada_Physics_Material Physics_Material;
+
 		[XmlElement(ElementName = "instance_physics_material")]
-		public Grendgine_Collada_Instance_Physics_Material Instance_Physics_Material;		
-		
-		
+		public Grendgine_Collada_Instance_Physics_Material Instance_Physics_Material;
+
 		[XmlElement(ElementName = "shape")]
-		public Grendgine_Collada_Shape[] Shape;		
+		public Grendgine_Collada_Shape[] Shape;
 	}
 }
-

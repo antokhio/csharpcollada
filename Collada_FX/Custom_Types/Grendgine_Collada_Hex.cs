@@ -11,10 +11,9 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("format")]
 		public string Format;
-		
+
 		[XmlTextAttribute()]
-	    public string Value;	
+		public string Value;
 		//TODO: this is a hex array
 	}
 }
-

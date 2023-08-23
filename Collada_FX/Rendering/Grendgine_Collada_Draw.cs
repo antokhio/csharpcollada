@@ -10,7 +10,6 @@ namespace grendgine_collada
 	public partial class Grendgine_Collada_Draw
 	{
 		[XmlTextAttribute()]
-	    public string Value;
+		public string Value;
 	}
 }
-
