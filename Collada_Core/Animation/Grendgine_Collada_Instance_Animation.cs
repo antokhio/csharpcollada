@@ -16,9 +16,9 @@ namespace grendgine_collada
 		
 		[XmlAttribute("url")]
 		public string URL;	
+
 		
-	    [XmlElement(ElementName = "extra")]
+		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra;			
 	}
 }
-
