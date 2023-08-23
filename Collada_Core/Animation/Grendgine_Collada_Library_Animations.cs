@@ -15,15 +15,13 @@ namespace grendgine_collada
 		public string Name;	
 		
 		
-	    [XmlElement(ElementName = "animation")]
+		[XmlElement(ElementName = "animation")]
 		public Grendgine_Collada_Animation[] Animation;	
 		
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
 		
-	    [XmlElement(ElementName = "extra")]
+		[XmlElement(ElementName = "extra")]
 		public Grendgine_Collada_Extra[] Extra;	
-
 	}
 }
-
