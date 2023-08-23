@@ -9,7 +9,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="convex_mesh", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Convex_Mesh
 	{
-
 		[XmlAttribute("convex_hull_of")]
 		public string Convex_Hull_Of;
 

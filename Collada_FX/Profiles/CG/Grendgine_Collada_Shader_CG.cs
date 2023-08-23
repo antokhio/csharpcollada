@@ -9,7 +9,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="shader", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Shader_CG : Grendgine_Collada_Shader
 	{
-
 		[XmlElement(ElementName = "bind_uniform")]
 		public Grendgine_Collada_Bind_Uniform[] Bind_Uniform;
 

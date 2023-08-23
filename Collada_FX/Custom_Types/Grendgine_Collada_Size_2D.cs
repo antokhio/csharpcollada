@@ -9,7 +9,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Size_2D
 	{
-
 		[XmlAttribute("width")]
 		public int Width;
 

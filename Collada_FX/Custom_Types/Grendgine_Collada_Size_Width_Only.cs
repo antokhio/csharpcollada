@@ -10,7 +10,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="size", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Size_Width_Only
 	{
-
 		[XmlAttribute("width")]
 		public int Width;
 	}

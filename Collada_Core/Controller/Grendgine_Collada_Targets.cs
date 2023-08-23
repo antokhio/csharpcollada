@@ -8,7 +8,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Targets
 	{
-
 		[XmlElement(ElementName = "input")]
 		public Grendgine_Collada_Input_Unshared[] Input;
 

@@ -10,7 +10,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="technique_common", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Technique_Common_Instance_Rigid_Body : Grendgine_Collada_Technique_Common
 	{
-
 		[XmlElement(ElementName = "angular_velocity")]
 		public Grendgine_Collada_Float_Array_String Angular_Velocity;
 

@@ -8,7 +8,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Morph
 	{
-
 		[XmlAttribute("source")]
 		public string Source_Attribute;
 

@@ -9,7 +9,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="motion", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Motion
 	{
-
 		[XmlElement(ElementName = "instance_articulated_system")]
 		public Grendgine_Collada_Instance_Articulated_System Instance_Articulated_System;
 

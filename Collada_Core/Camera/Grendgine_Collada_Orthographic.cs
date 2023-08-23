@@ -8,7 +8,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Orthographic
 	{
-
 		[XmlElement(ElementName = "xmag")]
 		public Grendgine_Collada_SID_Float XMag;
 

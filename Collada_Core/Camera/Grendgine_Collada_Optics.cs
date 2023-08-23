@@ -8,7 +8,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Optics
 	{
-
 		[XmlElement(ElementName = "technique_common")]
 		public Grendgine_Collada_Technique_Common_Optics Technique_Common;
 

@@ -9,7 +9,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="shader", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Shader_GLES2 : Grendgine_Collada_Shader
 	{
-
 		[XmlElement(ElementName = "compiler")]
 		public Grendgine_Collada_Compiler[] Compiler;
 		[XmlElement(ElementName = "extra")]

@@ -9,7 +9,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlRootAttribute(ElementName="evaluate", Namespace="https://www.collada.org/2008/03/COLLADASchema", IsNullable=true)]
 	public partial class Grendgine_Collada_Effect_Technique_Evaluate
 	{
-
 		[XmlElement(ElementName = "color_target")]
 		public Grendgine_Collada_Color_Target Color_Target;
 
