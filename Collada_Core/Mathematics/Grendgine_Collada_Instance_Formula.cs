@@ -18,8 +18,7 @@ namespace grendgine_collada
 		public string URL;		
 		
 		
-	    [XmlElement(ElementName = "setparam")]
+		[XmlElement(ElementName = "setparam")]
 		public Grendgine_Collada_Set_Param[] Set_Param;					
 	}
 }
-
