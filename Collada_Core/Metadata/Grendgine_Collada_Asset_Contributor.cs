@@ -9,9 +9,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Asset_Contributor
 	{
-
-
-
 		[XmlElement(ElementName = "author")]
 		public string Author;
 
