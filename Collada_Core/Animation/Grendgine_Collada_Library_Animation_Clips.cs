@@ -8,7 +8,6 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Library_Animation_Clips
 	{
-
 		[XmlAttribute("id")]
 		public string ID;
 
