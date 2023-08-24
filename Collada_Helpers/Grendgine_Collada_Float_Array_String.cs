@@ -1,5 +1,3 @@
-using System;
-
 namespace grendgine_collada
 {
 	public partial class Grendgine_Collada_Float_Array_String

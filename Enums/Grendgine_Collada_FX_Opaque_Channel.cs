@@ -1,4 +1,3 @@
-using System;
 namespace grendgine_collada
 {
 	[System.SerializableAttribute()]
