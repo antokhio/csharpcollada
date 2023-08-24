@@ -1,7 +1,5 @@
-using System;
 using System.Xml;
 using System.Xml.Serialization;
-using System.IO;
 namespace grendgine_collada
 {
 	[System.SerializableAttribute()]
@@ -10,23 +8,20 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;	
-		
+		public string Name;
+
 		[XmlElement(ElementName = "asset")]
 		public Grendgine_Collada_Asset Asset;
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;			
-		
-	    [XmlElement(ElementName = "evaluate_scene")]
-		public Grendgine_Collada_Evaluate_Scene[] Evaluate_Scene;			
 
-		
-	    [XmlElement(ElementName = "node")]
-		public Grendgine_Collada_Node[] Node;			
-		
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
+
+		[XmlElement(ElementName = "evaluate_scene")]
+		public Grendgine_Collada_Evaluate_Scene[] Evaluate_Scene;
+
+		[XmlElement(ElementName = "node")]
+		public Grendgine_Collada_Node[] Node;
 	}
 }
-

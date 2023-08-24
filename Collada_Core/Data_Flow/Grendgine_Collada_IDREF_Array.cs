@@ -1,7 +1,5 @@
-using System;
 using System.Xml;
 using System.Xml.Serialization;
-using System.IO;
 namespace grendgine_collada
 {
 	[System.SerializableAttribute()]
@@ -10,13 +8,11 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
-		[XmlAttribute("name")]
-		public string Name;			
-		
-		[XmlAttribute("count")]
-		public int Count;			
 
+		[XmlAttribute("name")]
+		public string Name;
+
+		[XmlAttribute("count")]
+		public int Count;
 	}
 }
-

@@ -1,7 +1,5 @@
-using System;
 using System.Xml;
 using System.Xml.Serialization;
-using System.IO;
 namespace grendgine_collada
 {
 	[System.SerializableAttribute()]
@@ -15,10 +13,9 @@ namespace grendgine_collada
 		public string Name;
 
 		[XmlAttribute("url")]
-		public string URL;		
-		
-	    [XmlElement(ElementName = "extra")]
-		public Grendgine_Collada_Extra[] Extra;		
+		public string URL;
+
+		[XmlElement(ElementName = "extra")]
+		public Grendgine_Collada_Extra[] Extra;
 	}
 }
-

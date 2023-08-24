@@ -1,4 +1,3 @@
-
 using System;
 using System.Xml;
 using System.Xml.Serialization;
@@ -9,30 +8,25 @@ namespace grendgine_collada
 	[System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
 	public partial class Grendgine_Collada_Asset_Contributor
 	{
-
-
-
-	    [XmlElement(ElementName = "author")]
+		[XmlElement(ElementName = "author")]
 		public string Author;
-		
-	    [XmlElement(ElementName = "author_email")]
+
+		[XmlElement(ElementName = "author_email")]
 		public string Author_Email;
-		
-	    [XmlElement(ElementName = "author_website")]
+
+		[XmlElement(ElementName = "author_website")]
 		public string Author_Website;
-		
-	    [XmlElement(ElementName = "authoring_tool")]
+
+		[XmlElement(ElementName = "authoring_tool")]
 		public string Authoring_Tool;
-		
-	    [XmlElement(ElementName = "comments")]
+
+		[XmlElement(ElementName = "comments")]
 		public string Comments;
-		
-	    [XmlElement(ElementName = "copyright")]
+
+		[XmlElement(ElementName = "copyright")]
 		public string Copyright;
-		
-	    [XmlElement(ElementName = "source_data")]
-		public string Source_Data;		
-		
+
+		[XmlElement(ElementName = "source_data")]
+		public string Source_Data;
 	}
 }
-

@@ -1,10 +1,7 @@
-using System;
 using System.Xml;
 using System.Xml.Serialization;
-using System.IO;
 namespace grendgine_collada
 {
-	
 	/// <summary>
 	/// This is the core <technique>
 	/// </summary>
@@ -18,8 +15,6 @@ namespace grendgine_collada
 		public string xmlns;
 
 		[XmlAnyElement]
-		public XmlElement[] Data;	
-
+		public XmlElement[] Data;
 	}
 }
-

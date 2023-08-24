@@ -1,7 +1,5 @@
-using System;
 using System.Xml;
 using System.Xml.Serialization;
-using System.IO;
 namespace grendgine_collada
 {
 	[System.SerializableAttribute()]
@@ -10,21 +8,19 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("id")]
 		public string ID;
-		
+
 		[XmlAttribute("name")]
-		public string Name;			
-		
+		public string Name;
+
 		[XmlAttribute("count")]
-		public int Count;		
-		
+		public int Count;
+
 		[XmlAttribute("minInclusive")]
-	    [System.ComponentModel.DefaultValueAttribute(typeof(int), "-2147483648")]
-		public int Min_Inclusive;		
+		[System.ComponentModel.DefaultValueAttribute(typeof(int), "-2147483648")]
+		public int Min_Inclusive;
 
 		[XmlAttribute("maxInclusive")]
-	    [System.ComponentModel.DefaultValueAttribute(typeof(int), "2147483647")]
-		public int Max_Inclusive;		
-
+		[System.ComponentModel.DefaultValueAttribute(typeof(int), "2147483647")]
+		public int Max_Inclusive;
 	}
 }
-

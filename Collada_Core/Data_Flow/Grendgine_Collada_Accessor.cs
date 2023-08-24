@@ -1,7 +1,5 @@
-using System;
 using System.Xml;
 using System.Xml.Serialization;
-using System.IO;
 namespace grendgine_collada
 {
 	[System.SerializableAttribute()]
@@ -12,16 +10,15 @@ namespace grendgine_collada
 		public uint Count;
 
 		[XmlAttribute("offset")]
-		public uint Offset;		
-		
+		public uint Offset;
+
 		[XmlAttribute("source")]
-		public string Source;		
-		
+		public string Source;
+
 		[XmlAttribute("stride")]
-		public uint Stride;		
-		
-	    [XmlElement(ElementName = "param")]
-		public Grendgine_Collada_Param[] Param;				
+		public uint Stride;
+
+		[XmlElement(ElementName = "param")]
+		public Grendgine_Collada_Param[] Param;
 	}
 }
-

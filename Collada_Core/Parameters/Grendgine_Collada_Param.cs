@@ -1,7 +1,5 @@
-using System;
 using System.Xml;
 using System.Xml.Serialization;
-using System.IO;
 namespace grendgine_collada
 {
 	[System.SerializableAttribute()]
@@ -10,23 +8,22 @@ namespace grendgine_collada
 	{
 		[XmlAttribute("ref")]
 		public string Ref;
-		
+
 		[XmlAttribute("sid")]
-		public string sID;		
+		public string sID;
 
 		[XmlAttribute("name")]
-		public string Name;		
+		public string Name;
 
 		[XmlAttribute("semantic")]
-		public string Semantic;			
+		public string Semantic;
 
 		[XmlAttribute("type")]
-		public string Type;		
-		
+		public string Type;
+
 		[XmlAnyElement]
-		public XmlElement[] Data;	
-		
+		public XmlElement[] Data;
+
 		//TODO: this is used in a few contexts
 	}
 }
-
